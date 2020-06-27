@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.td,
+#turnx {
+  background-color: rgba(124, 252, 0, 1);
+}
+
+.td,
+#turno {
+  background-color: rgba(250, 128, 114, 1);
+}
+
+.progressBar {
+  width: 300px;
+}
+
+#myBar {
+  height: 24px;
+  width: 0%;
+}
